@@ -383,7 +383,7 @@ img {
         .hero {
             background-image:
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/phone/Dark-bg.jpg);
+            url(../images/phone/Dark-bg-1.jpg);
         }
     }
 }
@@ -392,7 +392,7 @@ img {
     .hero {
         background-image: 
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero-image/hero-tabl_768@1x.jpg);
+        url(../);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -402,7 +402,7 @@ img {
         .hero {
             background-image:
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-image/hero-tabl_1536@2x.jpg);
+            url(../images/phone/Dark-bg-2.jpg);
         }
     }
 }
@@ -411,7 +411,7 @@ img {
     .hero {
         background-image: 
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero-image/hero-desc_1140@1x.jpg);
+        url(../images/phone/Dark-bg.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -420,7 +420,7 @@ img {
         .hero {
             background-image:
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-image/hero-desc_2280@2x.jpg);
+            url(../images/phone/Dark-bg.jpg);
         }
     }
 }
