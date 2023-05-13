@@ -1516,3 +1516,9 @@ img {
         flex-basis: calc((100% - 48px) / 3);
     }
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
