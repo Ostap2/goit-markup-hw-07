@@ -712,9 +712,6 @@ img {
 .tablet-container {
     max-width: 552px;
     padding: 0;
-    align-items: baseline;
-align-items: first baseline;
-align-items: last baseline;
   }
 }
 
@@ -762,6 +759,7 @@ align-items: last baseline;
 
 @media only screen and (min-width: 768px) {
     .footer-content {
+        align-items: baseline;
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
@@ -779,8 +777,6 @@ align-items: last baseline;
 @media only screen and (min-width: 1158px) {
     .footer-content {
         align-items: baseline;
-align-items: first baseline;
-align-items: last baseline;
         gap: 0;
     }
 
@@ -825,9 +821,7 @@ align-items: last baseline;
 @media only screen and (min-width: 1158px) {
 .footer-socials-section {
     margin-right: 80px;
-    align-items: baseline;
-align-items: first baseline;
-align-items: last baseline;
+    flex: baseline;
   }
 }
 
