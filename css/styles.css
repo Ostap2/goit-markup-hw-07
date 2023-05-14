@@ -776,7 +776,7 @@ img {
 
 @media only screen and (min-width: 1158px) {
     .footer-content {
-        flex: baseline;
+        align-items: baseline;
         gap: 0;
     }
 
@@ -821,7 +821,7 @@ img {
 @media only screen and (min-width: 1158px) {
 .footer-socials-section {
     margin-right: 80px;
-    flex: baseline;
+    align-items: baseline;
   }
 }
 
@@ -1519,5 +1519,3 @@ img {
         flex-basis: calc((100% - 48px) / 3);
     }
 }
-align-items: baseline;
-tablet-container
