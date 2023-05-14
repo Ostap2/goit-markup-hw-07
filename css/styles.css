@@ -712,6 +712,7 @@ img {
 .tablet-container {
     max-width: 552px;
     padding: 0;
+    row-gap: 72px;
   }
 }
 
@@ -1519,3 +1520,4 @@ img {
         flex-basis: calc((100% - 48px) / 3);
     }
 }
+tablet-container
