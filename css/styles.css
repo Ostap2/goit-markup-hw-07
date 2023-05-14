@@ -819,7 +819,7 @@ img {
 @media only screen and (min-width: 1158px) {
 .footer-socials-section {
     margin-right: 80px;
-    vertical-align: baseline;
+    flex: baseline;
   }
 }
 
@@ -1517,4 +1517,6 @@ img {
         flex-basis: calc((100% - 48px) / 3);
     }
 }
-footer-socials-section
+.customers-item {
+    row-gap: 72px;
+}
