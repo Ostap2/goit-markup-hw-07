@@ -712,7 +712,7 @@ img {
 .tablet-container {
     max-width: 552px;
     padding: 0;
-    flex: baseline;
+    align-items: baseline;
   }
 }
 
@@ -1519,4 +1519,5 @@ img {
         flex-basis: calc((100% - 48px) / 3);
     }
 }
+align-items: baseline;
 tablet-container
