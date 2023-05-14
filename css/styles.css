@@ -373,7 +373,7 @@ img {
     .hero {
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/phone/Dark-bg.jpg);
+        url(../images/people-office.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -383,7 +383,7 @@ img {
         .hero {
             background-image:
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/phone/Dark-bg-1.jpg);
+            url(../images/people-office.jpg);
         }
     }
 }
@@ -819,6 +819,7 @@ img {
 @media only screen and (min-width: 1158px) {
 .footer-socials-section {
     margin-right: 80px;
+    vertical-align: baseline;
   }
 }
 
@@ -1516,3 +1517,4 @@ img {
         flex-basis: calc((100% - 48px) / 3);
     }
 }
+footer-socials-section
