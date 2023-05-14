@@ -661,6 +661,7 @@ img {
 .customers-item {
     width: calc((100% - 16px) / 2);
     height: 88px;
+    row-gap: 72px;
 }
 
 .customers-link {
@@ -1516,7 +1517,4 @@ img {
     .portfolio-item {
         flex-basis: calc((100% - 48px) / 3);
     }
-}
-.customers-item {
-    row-gap: 72px;
 }
