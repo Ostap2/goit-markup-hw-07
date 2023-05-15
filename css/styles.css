@@ -662,6 +662,7 @@ img {
     width: calc((100% - 16px) / 2);
     height: 88px;
     margin-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .customers-link {
