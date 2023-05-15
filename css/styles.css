@@ -1520,3 +1520,19 @@ img {
         flex-basis: calc((100% - 48px) / 3);
     }
 }
+/* .  */
+@media only screen and (min-width: 1158px) {
+    .customers-item {
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .customers-item {
+        margin-bottom: 72px;
+    }
+}
+@media only screen and (min-width: 428px) {
+    .customers-item {
+        margin-bottom: 72px;
+    }
+}
