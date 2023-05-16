@@ -716,16 +716,20 @@ img {
         width: calc((100% - 120px) / 6);
         margin-bottom: 0;
         column-gap: 24px;
-        row-gap: 72px;
       }
     }
-@media only screen and (min-width: 320px) and (max-width: 1157px) {
+@media only screen and (min-width: 1158px) {
 .tablet-container {
     max-width: 552px;
     padding: 0;
-    row-gap: 72px;
     column-gap: 24px;
   }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1157px) {
+   .customers {
+    row-gap: 72px;
+   } 
 }
 
 /* Footer section */
@@ -881,10 +885,8 @@ img {
     justify-content: center;
     align-items: center;
     gap: 16px;
-
     width: 165px;
     height: 40px;
-
     color: var(--white-color);
     background-color: var(--primary-brand);
     border: none;
