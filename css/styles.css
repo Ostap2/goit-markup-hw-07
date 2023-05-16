@@ -1550,3 +1550,6 @@ hero
     }
 
 }
+.policy-checkbox:focus + .policy-checkbox-icon {
+    outline:1px  solid blue;
+   }
