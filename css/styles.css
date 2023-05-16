@@ -1178,12 +1178,12 @@ registration-form-lable
     height: 56px;
     padding: 16px 32px;
     margin: 0 auto;
-
+    margin-top: 24px;
     color: var(--white-color);
     background-color: var(--primary-brand);
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+    
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function:
