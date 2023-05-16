@@ -708,21 +708,13 @@ img {
 .customers-item {
     width: calc((100% - 120px) / 6);
     margin-bottom: 0;
-    column-gap: 24px;
   }
 }
-@media only screen and (min-width: 1158px) {
-    .customers-item {
-        width: calc((100% - 120px) / 6);
-        margin-bottom: 0;
-        column-gap: 24px;
-      }
-    }
+
 @media only screen and (min-width: 1158px) {
 .tablet-container {
     max-width: 552px;
     padding: 0;
-    column-gap: 24px;
   }
 }
 
@@ -1553,3 +1545,4 @@ hero
 .policy-checkbox:focus + .policy-checkbox-icon {
     outline:1px  solid blue;
    }
+   customers
